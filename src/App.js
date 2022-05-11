@@ -7,7 +7,7 @@ function App() {
   const dispatch = useDispatch();
   return (
     <div className="App">
-      <h3>React REDUX Counter Project</h3>
+      <h3>React REDUX Counterr Project</h3>
         <div className="container">
           <a onClick={()=>dispatch(incNumbr())} className='txt' href="#" style={{'textDecoration':'none'}}>+</a>
           {/* <input className='inpt' type="text" value={myState}/> */}
